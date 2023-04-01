@@ -26,7 +26,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center" font-size="30px">
-  <h3><b>Hello Rails React</b></h3>
+  <h3><b>Hello Rails Back End</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -55,15 +55,14 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails React
+# 📖 Hello Rails Back End
 
 <a name="about-project"></a>
 
-**Hello Rails React** is a project that teach how to connect Rails with React JS using Webpack.
+**Hello Rails Back End** is a project about building an API endpoint using Rails which generates random greetings.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- React JS
 - Ruby on Rails
 - VSCode
 - Rubocop
@@ -103,9 +102,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### Front End app <a name="live-demo"></a>
 
-- [Live Demo Link](#)
+Click [here](https://github.com/KIsmoilov/hello_react_front_end) to access the front end app that was built with react
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +120,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd PATH
-  git clone https://github.com/KIsmoilov/hello_rails_react.git
+  git clone https://github.com/KIsmoilov/hello-rails-back-end.git
 ```
 
 ### Install
@@ -129,7 +128,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd hello_rails_react
+  cd hello_rails_back_end
   gem install
 ```
 
@@ -138,6 +137,9 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
+  rails db:create
+  rails db:migrate
+  rails db:seed
   rails server
 ```
 
@@ -168,7 +170,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Divide the repo into two parts such as front-end and back-end**
+- **Displays greetings with the user`s name**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,7 +180,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/KIsmoilov/hello_rails_react/issues).
+Feel free to check the [issues page](https://github.com/KIsmoilov/hello-rails-back-end/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
